@@ -1,0 +1,6 @@
+List of Projects
+    - Snake Game
+    - Football Playbook
+    - Clothes Drop
+    - New West Hangman
+    - Calculator
