@@ -4,3 +4,6 @@ List of Projects
     - Clothes Drop
     - New West Hangman
     - Calculator
+Working on :
+    - Duel App
+    - Tournament Site
