@@ -1,9 +1,0 @@
-List of Projects
-    - Snake Game
-    - Football Playbook
-    - Clothes Drop
-    - New West Hangman
-    - Calculator
-Working on :
-    - Duel App
-    - Tournament Site

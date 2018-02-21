@@ -1,2 +1,0 @@
-# YudhvirRajMe
-My Personal Page
