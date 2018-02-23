@@ -1,18 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import Resume from 'react-awesome-resume'
+import 'semantic-ui-css/semantic.min.css';
 
-import App from './App';
+import { person } from './person';
 
-import registerServiceWorker from './registerServiceWorker';
+const myJSONResume = person;
 
-import { Router, browserHistory } from 'react-router';
-
-import routes from './routes';
-
-// ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render (
-    <Router history = { browserHistory } routes = { routes } />,
-    document.getElementById ('root')
+ReactDOM.render(
+  <Resume jsonResume={myJSONResume} theme="default" />,
+  document.getElementById("root")
 );
-
-registerServiceWorker();
