@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { Link, IndexLink } from 'react-router';
 
@@ -11,6 +11,10 @@ const Header = () => {
             { ' | ' }
             <Link to = '/cats' activeClassName = 'active'>
                 Cats
+            </Link>
+            { ' | ' }
+            <Link to = '/projects' activeClassName = 'active'>
+                Projects
             </Link>
         </nav>
     )
